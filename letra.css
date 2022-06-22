@@ -1,0 +1,49 @@
+@media (max-width: 425px) {
+    .letraInicio{
+        
+        font-size: 20px;
+        color: black;
+    }
+    
+    .letraInicio:hover{
+        color: rgb(5, 155, 255);
+    }
+
+    .tamañoIcono{
+        font-size: 15px;
+        color: rgb(156, 156, 156);
+    }
+
+    }
+
+@media (min-width: 426px) {
+.letraInicio{
+    
+    font-size: 25px;
+    color: black;
+}
+
+.letraInicio:hover{
+    color: rgb(5, 155, 255);
+}
+.tamañoIcono{
+    font-size: 20px;
+    color: rgb(156, 156, 156);
+}
+}
+
+@media (min-width: 1400px) {
+    .letraInicio{
+    
+        font-size: 30px;
+        color: black;
+    }
+    
+    .letraInicio:hover{
+        color: rgb(5, 155, 255);
+    }
+    .tamañoIcono{
+        font-size: 25px;
+        color: rgb(156, 156, 156);
+    }
+}

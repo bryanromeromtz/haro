@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@media (max-width: 424px) {
+    .contenedor-range {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .input-contenedor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 10vh;
+        background: white;
+    }
+
+    ::selection {
+        color: #fff;
+        background: #17a2b8;
+    }
+
+    .wrapper {
+        width: 400px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px 25px 40px;
+        box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+    }
+
+    .price-input {
+        width: 100%;
+        display: flex;
+        margin: 30px 0 35px;
+    }
+
+    .price-input .field {
+        align-items: center;
+        height: 45px;
+        width: 200%;
+        display: flex;
+        background: white;
+    }
+
+    .field input {
+        width: 100%;
+        height: 100%;
+        outline: none;
+        font-size: 19px;
+        text-align: center;
+        margin-left: 12px;
+        border-radius: 5px;
+        text-align: center;
+        border: 1px solid #999;
+        -moz-appearance: textfield;
+    }
+
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    .price-input .separator {
+        width: 130px;
+        display: flex;
+        font-size: 19px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider-range {
+        height: 5px;
+        border-radius: 5px;
+        background: #ddd;
+        position: relative;
+    }
+
+    .slider-range .progress {
+        height: 5px;
+        left: 25%;
+        right: 25%;
+        position: absolute;
+        border-radius: 5px;
+        background: #17a2b8;
+    }
+
+    .range-input {
+        position: relative;
+    }
+
+    /*checar para acomodo de linea slider */
+    .range-input input {
+        position: absolute;
+        top: -5px;
+        height: 5px;
+        width: 100%;
+        background: none;
+        pointer-events: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+        pointer-events: auto;
+        -webkit-appearance: none;
+        background: #17a2b8;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    }
+
+    input[type="range"]::-moz-range-thumb {
+        height: 17px;
+        width: 17px;
+        border: none;
+        border-radius: 50%;
+        pointer-events: auto;
+        -moz-appearance: none;
+        background: #17a2b8;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    }
+}
+
+@media (min-width: 425px) {
+    .contenedor-range {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .input-contenedor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 10vh;
+        background: white;
+    }
+
+    ::selection {
+        color: #fff;
+        background: #17a2b8;
+    }
+
+    .wrapper {
+        width: 400px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px 25px 40px;
+        box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+    }
+
+    .price-input {
+        width: 100%;
+        display: flex;
+        margin: 30px 0 35px;
+    }
+
+    .price-input .field {
+        align-items: center;
+        height: 45px;
+        width: 100%;
+        display: flex;
+        background: white;
+    }
+
+    .field input {
+        width: 100%;
+        height: 100%;
+        outline: none;
+        font-size: 19px;
+        text-align: center;
+        margin-left: 12px;
+        border-radius: 5px;
+        text-align: center;
+        border: 1px solid #999;
+        -moz-appearance: textfield;
+    }
+
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    .price-input .separator {
+        width: 130px;
+        display: flex;
+        font-size: 19px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider-range {
+        height: 5px;
+        border-radius: 5px;
+        background: #ddd;
+        position: relative;
+    }
+
+    .slider-range .progress {
+        height: 5px;
+        left: 25%;
+        right: 25%;
+        position: absolute;
+        border-radius: 5px;
+        background: #17a2b8;
+    }
+
+    .range-input {
+        position: relative;
+    }
+
+    /*checar para acomodo de linea slider */
+    .range-input input {
+        position: absolute;
+        top: -5px;
+        height: 5px;
+        width: 100%;
+        background: none;
+        pointer-events: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+        pointer-events: auto;
+        -webkit-appearance: none;
+        background: #17a2b8;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    }
+
+    input[type="range"]::-moz-range-thumb {
+        height: 17px;
+        width: 17px;
+        border: none;
+        border-radius: 50%;
+        pointer-events: auto;
+        -moz-appearance: none;
+        background: #17a2b8;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    }
+
+}
+
+.box-shadow {
+    -webkit-box-shadow: 1px 1px 19px 1px rgba(0, 0, 0, 0.51) !important;
+    box-shadow: 1px 1px 19px 1px rgba(0, 0, 0, 0.51) !important;
+}
+
+
+/* CAROUSEL MARCAS CARROS */
+
+.slider-wrapper {
+    -webkit-box-shadow: -1px 0px 14px 0px rgba(0, 0, 0, 0.59);
+    box-shadow: -1px 0px 14px 0px rgba(0, 0, 0, 0.59);
+}
